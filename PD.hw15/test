@@ -1,0 +1,12 @@
+insert	kobe
+insert	kobe
+insert	bbb
+insert	aaa
+insert	bbb
+insert	bbb
+insert	aaa
+insert	aaa
+count
+delete	aaa
+query	aaa
+inorder

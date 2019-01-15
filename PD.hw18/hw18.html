@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HW8通訊錄</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style>
+        body {
+            background-color: green;
+            text-align: center;
+            color: white;
+        }
+		#showbox{
+			color: red;
+            text-align: center;
+			font-size: 40px;
+		}
+    </style>
+</head>
+<body onload="ShowTime()">
+	<div id="showbox"></div>
+	<center>
+    <form style="border:5px #FFAC55 solid; ">
+        學號：<input type="text" name="uid" id="uid"><br><br>      
+		姓名：<input type="text" name="name" id="name"><br><br>
+		電話：<input type="text" name="phone" id="phone"><br><br>
+		信箱：<input type="text" name="email" id="email"><br><br>
+        <input type="button" onclick="insert(this.form),reset()" value="新增">
+		<input type="button" onclick="mydelete(this.form),reset()" value="刪除">
+        <input type="button" onclick="update(this.form),reset()" value="修改">		
+        <input type="button" onclick="mylist(),reset()" value="列出">	
+        <input type="button" onclick="reset()" value="重設"><br><br>		
+		搜尋：<input type="text" name="search" id="search">
+		<input type="button" onclick="mysearch(this.form.search.value),reset()" value="搜尋"><br><br>
+	</form>
+	</center>
+	<table id="mytable" width=60% border="1" align=center>
+        <caption>通訊錄</caption>
+        <tbody>
+            <tr align=center>
+                <td width=20%>學號</td>
+                <td width=25%>姓名</td>
+                <td width=25%>電話</td>
+                <td width=30%>信箱</td>
+            </tr>
+        </tbody>
+    </table>
+
+	<script src="hw18.js"></script>
+
+
+</body>
+</html>
