@@ -1,0 +1,31 @@
+Please input command(i/d/u/f/l/q) and data :
+Insert the record : i studentID	name	phone	email
+Delete the record : d studentID
+Update the record : u studentID	name	phone	email
+Find the record : f [string]
+List the record : l
+Quit : q
+Delete error! studentID not exists!
+Insert successful!
+Insert successful!
+studentID:403409271	name:john	phone:0922123123	email:john@gmail.com
+studentID:403409272	name:ann	phone:0922123124	email:ann@gmail.com
+Insert error! studentID is exists!
+studentID:403409271	name:john	phone:0922123123	email:john@gmail.com
+studentID:403409272	name:ann	phone:0922123124	email:ann@gmail.com
+studentID:403409272	name:ann	phone:0922123124	email:ann@gmail.com
+Update successful!
+studentID:403409271	name:john	phone:0922123125	email:johnan@gmail.com
+studentID:403409272	name:ann	phone:0922123124	email:ann@gmail.com
+Update error! studentID not exists!
+studentID:403409271	name:john	phone:0922123125	email:johnan@gmail.com
+studentID:403409272	name:ann	phone:0922123124	email:ann@gmail.com
+Insert successful!
+studentID:403409271	name:john	phone:0922123125	email:johnan@gmail.com
+studentID:403409272	name:ann	phone:0922123124	email:ann@gmail.com
+studentID:403409273	name:Peter	phone:0922123126	email:peter@gmail.com
+delete successful!
+Delete error! studentID not exists!
+studentID:403409272	name:ann	phone:0922123124	email:ann@gmail.com
+studentID:403409273	name:Peter	phone:0922123126	email:peter@gmail.com
+Thanks for your using!

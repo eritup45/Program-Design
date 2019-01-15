@@ -1,0 +1,17 @@
+d studentID:403409271
+i studentID:403409271	name:john	phone:0922123123	email:john@gmail.com  
+i studentID:403409272	name:ann	phone:0922123124	email:ann@gmail.com 
+l
+i studentID:403409272	name:Peter	phone:0922123124	email:peter@gmail.com
+l
+f an
+u studentID:403409271	name:john	phone:0922123125	email:johnan@gmail.com
+f an
+u studentID:403409270	name:john	phone:0922123125	email:johnan@gmail.com
+l
+i studentID:403409273	name:Peter	phone:0922123126	email:peter@gmail.com
+l
+d studentID:403409271
+d studentID:403409271
+l
+q
